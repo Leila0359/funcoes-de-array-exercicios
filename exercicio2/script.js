@@ -11,3 +11,31 @@ const produtos = [
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
  
+ function novoProduto(item) {
+    const nomeDoProduto = ('veja multiuso');
+    const categoria = ('limpeza');
+    const preco = 12.6;
+
+    const novoProduto = produtos.map((item)=> {
+        const novoProduto = {
+            nome: item.nome,
+            categoria: item.categoria,
+            preco: item.preco * 1,
+        }
+        return item
+    });
+    console.log(novoProduto [2]);
+
+}
+
+novoProduto()
+
+
+
+
+
+
+
+
+
+ 
